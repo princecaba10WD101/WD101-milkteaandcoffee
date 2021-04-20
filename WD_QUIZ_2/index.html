@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+<style>
+    * {
+    /*
+      Para saan to?
+      Lahat kasi ng HTML element or tag ay may default style
+      kaya pansin mo minsan may margin agad ang isang element
+      kahit wala ka pang style na nilalagay. 
+      " * " selector is para maselect lahat ng HTML element or
+      tag. Then ginawa kong zero yung margin at padding para
+      mas macontrol siya.
+    
+      Try mo icomment yung style sa ibaba kung gusto mo makita.
+    */
+    margin: 0;
+    padding: 0;
+  }
+            ul{
+              margin-left: 420px;
+            }
+            ul li{
+              list-style: none;
+              display: inline-block;
+              line-height: 50px;
+            }
+            ul li a{
+              text-decoration: none;
+              font-size: 30px;
+              font-family: times new roman;
+              color: white;
+              padding: 0 32px;
+              font-style: italic;
+            }
+            ul li a:hover{
+              background-color: white; border-radius: 5px; 
+              color:  rgb(59, 247, 59);
+            }
+  
+  .heading-container{
+    background: white;
+    width: 100%;
+    height: 120px;
+    line-height: 20px;
+    }
+
+  .navbar-container {
+    background:black; opacity: 90%;
+    width: 100%;
+    height: 90px;
+    }
+
+  .content-container{
+    display: flex;
+    justify-content: center;
+    }
+  
+  .leftpane-ad {
+    background: white;
+    width: 300px;
+    height: 1090px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    border-style: solid; 
+  }
+  
+  .main-content {
+    width: 800px;
+    height: 1090px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(158, 158, 158);
+    background-image: url("coffee-milk-tea-8514-1170x550.jpg") ;  
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+
+  .main-content p{
+    font-size: 20px;
+    font-family: billy;
+    color:white;
+    margin-left: 15px;
+    background-color: black; opacity: 90%;
+    height: 180px;
+    width: 600px;
+    margin: 0 50px;
+    padding: 0 30px;
+    border: green;
+    border-style: solid;
+    border-radius: 10px;
+    }
+
+  .main-content img{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    }
+
+  .rightpane-ad {
+    background: white;
+    width: 300px;
+    height: 1090px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .milktea-coffee{
+    font-size: 30px;
+    margin: 0 220px;
+    line-height: 70px;
+    color: white;
+    background-color: black; opacity: 90%;
+    }
+
+  .logo img{
+    margin-left: 40px;
+    height: 180px;
+    width: 380px;
+    }
+
+  .footer{
+    height: 30px;
+    width: 100%;
+    background-color: black; opacity: 95%;
+    font-size: 10px;
+    color: white;
+    font-family: times new roman;
+    padding: 10px;
+    }
+
+        .best-seller{
+          max-width: 500px;
+          margin: auto;
+          background-color: white; opacity: 92%;
+          overflow: auto;
+          height: 400px;
+          padding: 40px;
+          }
+
+        .best{
+          margin: 20px;
+          float:left;
+          width: 190px;
+          height: 200px;
+          }
+
+        .best img{
+          width: 120px;
+          height: 130px;
+          margin-top: 25px;
+          margin-left: 30px;
+          padding-left: 20px;
+          }
+
+        .desc{
+          text-align: center;
+          padding: 15px;
+          color: white;
+          background-color: black;
+          height: 8px;
+          border-radius: 20px;
+          line-height: 10px;
+          font-size: 15px;
+          margin: 0 20px;
+          width: 160px;
+          }
+</style>
+
+<link ref="style.css" rel="stylesheets">
+</head>
+<body>
+    
+    <div class="heading-container">
+        <!-- For heading -->
+<br>
+        <div class="logo"> <img src="logo.jpg" alt="img"> </div>
+
+      <div class="navbar-container">
+        <!-- For navigation links-->
+          <nav>
+            <br>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="milktea.html">Milk Tea</a></li>
+                <li><a href="coffee.html">Coffee</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+      </div>
+      
+<div class="content-container">
+         <section class="leftpane-ad">
+          <!-- LEFT ADVERTISEMENT SECTION -->
+<br>
+          <center>
+            <img src="ads1.jpg" alt="img" height="230px"; width="200px">
+          </center>
+          <br>
+          <center>
+            <img src="ads2.jpg" alt="img" height="280px"; width="180px">
+          </center>
+          <br>
+          <center>
+            <img src="ads3.jpg" alt="img" height="100px"; width="230px">
+          </center>
+          <br>
+          <center>
+            <img src="ads5.jpg" alt="img" height="180px"; width="230px">
+          </center>
+          <br>
+          <center>
+            <img src="ads6.jpg" alt="img" height="160px"; width="230px">
+          </center>
+        </section>
+      
+        <section class="main-content">
+          <!-- MAIN CONTENT -->
+          <center><img src="logo.jpg" > </center>
+          <div class="milktea-coffee" ></div>
+          <p><br> We serves a wide variety of tasty and refreshing authentic pearl milktea drinks for all you fanatics out there. 
+            Guaranteed made from 100% freshly brewed loose-leaf teas of high quality for an overall healthier lifestyle. 
+            We also serve variety of coffees, Frappes, Fruit Teas and more. We also have a coffee that brings your day. 
+            Our coffee has a lot of flavors and categories to satisfy our customers. </p>
+            <br>
+          <center><h1 style="background-color: rgb(51, 233, 51); width: 600px; font-size: 40px; height: 70px;
+            text-align: center; border-radius: 20px; color: white; margin-top: 20px;"> 
+            <br>Best Sellers</h1> </center>
+<br>        
+          <div class="best-seller">
+            <div class="best">
+              <img src="m1.jpg">
+              <div class="desc">Choco Milk Tea</div>
+            </div>
+
+            <div class="best">
+              <img src="m2.jpg">
+              <div class="desc">Jelly Milk Tea</div>
+            </div>
+
+            <div class="best">
+              <img src="m3.jpg">
+              <div class="desc">Pearl Milk Tea</div>
+            </div>
+
+            <div class="best">
+              <img src="f2.jpg">
+              <div class="desc">Lemon Black Tea</div>
+            </div>
+
+            <div class="best">
+              <img src="f3.jpg">
+              <div class="desc">Lemon Tea</div>
+            </div>
+
+            <div class="best">
+              <img src="f4.jpg">
+              <div class="desc">Orange Mountain Tea</div>
+            </div>
+  
+            <div class="best">
+              <img src="c1.jpg">
+              <div class="desc">Americano</div>
+            </div>
+
+            <div class="best">
+              <img src="c2.jpg">
+              <div class="desc">Machiato</div>
+            </div>
+
+            <div class="best">
+              <img src="c3.jpg">
+              <div class="desc">Latte</div>
+            </div>
+
+            <div class="best">
+              <img src="c4.jpg">
+              <div class="desc">Cappuccino</div>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="rightpane-ad">
+            <!-- RIGHT ADVERTISEMENT SECTION -->
+            <br>
+          <center>
+            <img src="ads4.jpg" alt="img" height="120px"; width="250px">
+          </center>
+        </section>
+</div>
+<br>
+<center>
+  <div class="footer">
+      <h1 style="border: none;"> Copyright 2021-PrinceMilkTeaandCafe.All Rights Reserved.</h1>
+  </div>
+</center>
+<br>
+</body>
+</html>

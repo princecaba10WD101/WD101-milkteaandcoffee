@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+
+<style>
+    * {
+    /*
+      Para saan to?
+      Lahat kasi ng HTML element or tag ay may default style
+      kaya pansin mo minsan may margin agad ang isang element
+      kahit wala ka pang style na nilalagay. 
+      " * " selector is para maselect lahat ng HTML element or
+      tag. Then ginawa kong zero yung margin at padding para
+      mas macontrol siya.
+    
+      Try mo icomment yung style sa ibaba kung gusto mo makita.
+    */
+    margin: 0;
+    padding: 0;
+  }
+            ul{
+                margin-left: 50px;
+            }
+            ul li{
+                list-style: none;
+                display: inline-block;
+                line-height: 60px;
+            }
+            ul li a{
+                text-decoration: none;
+                font-size: 30px;
+                font-family: times new roman; 
+                font-style: italic;
+                color: black;
+                padding: 0 32px;
+            }
+            ul li a:hover{
+                background-color: rgb(57, 231, 57); border-radius: 5px; 
+                color: black;
+            }
+  
+  .heading-container {
+    background: white;
+    width: 100%;
+    height: 140px;
+  }
+  
+  .navbar-container {
+    background:white; 
+    height: 100px;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+        .banner{position: relative; width: 100%; margin: 0;}
+        .banner img{ height: 600px; width: 100%; opacity: 90%;}
+        .heading{ color: white; position: absolute; top: 35%; margin: 0 46px;
+          font-size: 50px;
+          font-family: signet;
+          font-style: italic; 
+          }
+
+          .main-content {
+    background-image: url("espresso-ground-coffee-beans-thumb-1-732x549.jpg");  
+        background-repeat: no-repeat;
+        background-size: cover;
+    height: 800px;
+    margin-top:0 20px;
+    
+  }
+    
+</style>
+
+<link ref="style.css" rel="stylesheets">
+</head>
+<body>
+      <div class="heading-container">
+        <!-- For heading -->
+<br>
+        <center><img src="logo.jpg" alt="img" height="120px" width="220px"></center>
+      </div>
+      
+      <div class="navbar-container">
+        <!-- For navigation links-->
+        <nav>
+<br>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="milktea.html">Milk Tea</a></li>
+              <li><a href="coffee.html">Coffee</a></li>
+              <li><a href="about us.html">About Us</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="container-coffee">
+        <div class="row">
+          <div class="banner">
+              <img src="p08wpw9p.jpg" alt="img">
+              <h1 class="heading">"Let's begin your day with coffee"</h1>
+          </div>
+        </div>
+      </div>  
+<img src="coffee-menu.jpg" height="800px"; width="100%";>
+</body>
+</html>
