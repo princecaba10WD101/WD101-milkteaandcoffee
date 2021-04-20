@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MilkTea</title>
+
+<style>
+    * {
+    /*
+      Para saan to?
+      Lahat kasi ng HTML element or tag ay may default style
+      kaya pansin mo minsan may margin agad ang isang element
+      kahit wala ka pang style na nilalagay. 
+      " * " selector is para maselect lahat ng HTML element or
+      tag. Then ginawa kong zero yung margin at padding para
+      mas macontrol siya.
+    
+      Try mo icomment yung style sa ibaba kung gusto mo makita.
+    */
+    margin: 0;
+    padding: 0;
+  }
+            ul{
+              margin-left: 50px;
+            }
+            ul li{
+              list-style: none;
+              display: inline-block;
+              line-height: 60px;
+            }
+            ul li a{
+              text-decoration: none;
+              font-size: 30px;
+              font-family: times new roman;
+              color: black;
+              padding: 0 32px;
+              font-style: italic;
+            }
+            ul li a:hover{
+              background-color: rgb(57, 231, 57); 
+              border-radius: 5px; 
+              color: white;  
+              }
+         
+  body{color: white; margin: 0; }
+
+  .heading-container { background: white; width: 100%; height: 140px;}
+  
+  .navbar-container {background:white; opacity: 98%; width: 100%; height: 100px;}
+
+  .content-container {display: flex; justify-content: center;}
+  
+        .banner{position: relative; width: 100%; margin: 0;}
+        .banner img{ height: 710px; width: 100%; opacity: 95%;}
+        .heading{ 
+          color: white;
+          position: absolute; 
+          top: 40%; margin: 0 50px; 
+          font-size: 43px; font-family: signet;
+          font-style: italic;
+          } 
+
+.container-milktea{
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white; opacity: 92%;
+  overflow: auto;
+  height: 600px;
+  padding: 30px;
+  }
+
+  h3{
+    font-size: 35px;
+    font-family: times new roman;
+    background-color: rgb(182, 107, 8); width: 600px;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    padding: 20px;
+    }
+
+      .facilities{
+        margin: 20px;
+        border: 3px solid black;
+        float:left;
+        width: 270px;
+        height: 240px;
+        border-radius: 50px;   
+        }
+      .facilities img{
+        border-radius: 10px;
+        width: 130px;
+        height: 190px;
+        margin-top: 10px;
+        }
+     
+      .desc{
+        text-align: center;
+        padding: 15px;
+        color: white;
+        background-color: black;
+        height: 10px;
+        border-radius: 20px;
+        line-height: 10px;
+        font-size: 20px;       
+        }
+
+     .container-fruit-tea{
+        border-radius: 10px;
+        max-width: 1000px;
+        margin: auto;
+        background-color: white; opacity: 92%;
+        overflow: auto;
+        height: 600px;
+        padding: 30px;
+        }
+
+        .desc-f{
+        text-align: center;
+        padding: 15px;
+        color: black;
+        background-color: rgb(11, 248, 11);
+        height: 10px;
+        border-radius: 20px;
+        line-height: 10px;
+        font-size: 20px;
+        }
+
+        h4{
+          padding: 20px;
+          font-size: 35px;
+          font-family: times new roman;
+          background-color: rgb(39, 201, 7); width: 600px;
+          border-radius: 10px;
+          color: white;
+          font-style: italic; 
+          }
+</style>
+        <link ref="style.css" rel="stylesheets">
+</head>
+<body>
+    
+    <div class="heading-container">
+        <!-- For heading -->
+<br>
+        <center><img src="logo.jpg" alt="img" height="120px" width="220px"></center>
+    </div>
+      <div class="navbar-container">
+        <!-- For navigation links-->
+        <nav>
+          <br>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="milktea.html">Milk Tea</a></li>
+              <li><a href="coffee.html">Coffee</a></li>
+              <li><a href="about us.html">About Us</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+            <div class="row">
+              <div class="banner">
+                  <img src="ac2d4809c2842a3c872ed11663c813cf.jpg" alt="img">
+                  <h1 class="heading">"Our Milk Tea is not just your ordinary tea…<br>
+                    It’s more than just TEA."</h1>
+              </div>
+            </div>
+      </div>  
+<br>  
+<br>
+      <h1 style="font-style: italic; font-size: 60px; color: black; margin-left: 20px;">Our Products</h1>      
+  <hr>
+
+  <div class="container-milktea">    
+<br>
+<br>
+        <center> 
+          <h3>Milk Tea</h3>
+<br>
+<br>
+          <div class="facilities">
+            <img src="m1.jpg">
+            <div class="desc">Choco Milk Tea</div>
+          </div>
+
+          <div class="facilities">
+            <img src="m2.jpg">
+            <div class="desc">Jelly Milk Tea</div>
+          </div>
+
+          <div class="facilities">
+            <img src="m3.jpg">
+            <div class="desc">Pearl Milk Tea</div>
+          </div>
+
+          <div class="facilities">
+            <img src="m4.jpg">
+            <div class="desc">Taro Milk Tea</div>
+          </div>
+
+          <div class="facilities">
+            <img src="m5.jpg">
+            <div class="desc">Panda Milk Tea</div>
+          </div>
+          <br>
+          <br>
+          <div class="facilities">
+            <img src="m1.jpg">
+            <div class="desc">Oreo Milk Tea</div>
+          </div>
+        </center>
+  </div>
+
+<div class="container-fruit-tea">
+<br>
+        <center> 
+          <h4>Fruit Tea</h4>
+<br>
+          <div class="facilities">
+            <img src="f1.jpg">
+            <div class="desc-f">Grapefruit Mountain Tea</div>
+          </div>
+
+          <div class="facilities">
+            <img src="f2.jpg">
+            <div class="desc-f">Lemon Black Tea</div>
+          </div>
+
+          <div class="facilities">
+            <img src="f3.jpg">
+            <div class="desc-f">Lemon Tea</div>
+          </div>
+
+          <div class="facilities">
+            <img src="f4.jpg">
+            <div class="desc-f">Orange Mountain Tea</div>
+          </div>       
+<br>
+</body>
+</html>
